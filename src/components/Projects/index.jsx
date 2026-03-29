@@ -29,31 +29,28 @@ export default function Projects() {
 
   const works = [
     {
-      client: "FrontEnd Simplified",
-      year: "2025",
-      img: SKINSTRIC,
-      title: "SKINSTRIC AI.",
-      detail:
-        "A AI website that allows you to either capture a live selfie from your device, or download an image and analyze it using an AI algorithm.",
-      url: "https://internship-skinstric-ai-ruae.vercel.app/",
+      client: "Business Address",
+      year: "2026",
+      // img: SKINSTRIC,
+      title: '20 S Charles St Ste 403 #2725 Baltimore, MD 21201',
+      detail: "",
+      url: "https://www.google.com/maps/place/20+S+Charles+St+403+2725,+Baltimore,+MD+21201/@39.2884564,-76.6181132,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8049fd3dea891:0xe35076b151dd6983!8m2!3d39.2884564!4d-76.6155436?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D",
     },
     {
-      client: "Personal Project",
-      year: "2024",
-      img: Brainwave,
-      title: "Brainwave.",
-      detail:
-        "A vibrant website with smooth animations making for a great user interface and user experience that also attractive on mobile. Utilized React.Js and Tailwind CSS as well as a bento box layout.",
-      url: "https://brainwave-clone-git-main-rua-el-kasheefs-projects.vercel.app/",
+      client: "Email",
+      year: "*Preferred*",
+      // img: Brainwave,
+      title: "rua.el.o@relo-investments.com",
+      detail:"",
+      // url: "",
     },
     {
-      client: "FrontEnd Simplified",
-      year: "2024",
-      img: ultraverse,
-      title: "ULTRAVERSE (internship).",
-      detail:
-        "Converted a static single-page application built with  HTML, CSS, JavaScript and React into a dynamic, interactive and user friendly interface by integrating animations, transitions and carousels.Handled API requests utilizing Axios to fetch data and displayed it with the use of a skeleton loader pagination and dynamic routing. Effectively worked in a virtual team and collaborative  environment using Git version control and Github.",
-      url: "https://rua-el-kasheef-internship.vercel.app/",
+      client: "Phone Number",
+      year: "M-F 9am-5pm",
+      // img: ultraverse,
+      title: "(443) 599 - 6235",
+      detail:"",
+      // url: "",
     },
   ];
 
@@ -63,7 +60,7 @@ export default function Projects() {
   };
 
   return (
-    <section ref={ref} className="projects" id="projects">
+    <section ref={ref} className="projects" id="info">
       <BackgroundLines />
       <div className="background--glow"></div>
 
@@ -77,11 +74,11 @@ export default function Projects() {
         >
           <h5 className="theme--text">
             <ScrambleText shuffle delay={0.5}>
-              03
+              04
             </ScrambleText>{" "}
             <span className="hash">{"//"}</span>{" "}
             <ScrambleText shuffle delay={0.5}>
-              Expertise
+              Where to find us.
             </ScrambleText>
           </h5>
         </motion.div>
@@ -89,7 +86,7 @@ export default function Projects() {
         <div className="projects--grid--content">
           <div className="projects--grid--content--heading">
             <h2>
-              <ParaWriting stagger={0.08} text={"My "} sec={"Works"} />
+              <ParaWriting stagger={0.08} text={"Business "} sec={"Information"} />
             </h2>
           </div>
           <div className="projects--grid--content--works">
@@ -106,7 +103,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial="hidden"
           animate={controls}
           variants={opacityVariant}
@@ -121,7 +118,7 @@ export default function Projects() {
               finesse.
             </ScrambleText>
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

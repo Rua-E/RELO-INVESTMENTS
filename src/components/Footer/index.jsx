@@ -138,7 +138,7 @@ export default function Footer() {
   }
 
   return (
-    <footer ref={ref} className="footer" id="contact">
+    <footer ref={ref} className="footer" id="connect">
       <BackgroundLines />
 
       <div className="footer--grid">

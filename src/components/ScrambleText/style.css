@@ -16,14 +16,16 @@
   }
   
   .scrambleText > span:not(.scrambleText--overlay) {
-    opacity: 0;
+    opacity: 1;
     display: inline-flex;
+    color: inherit;
   }
   .scrambleText .scrambleText--overlay {
+    display: none;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 150%;
     height: 100%;
   }
   

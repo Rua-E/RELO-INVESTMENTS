@@ -6,7 +6,7 @@ import Header from "./components/Header"
 import About from './components/About'
 import TechStack from './components/TechStack'
 import Projects from './components/Projects'
-import Resume from './components/Resume'
+// import Resume from './components/Resume'
 import Footer from './components/Footer'
 
 
@@ -27,7 +27,7 @@ function App() {
       <About />
       <TechStack />
       <Projects />
-      <Resume />
+      {/* <Resume /> */}
       <Footer />
    </main>
   )

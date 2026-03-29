@@ -28,11 +28,11 @@
   }
   
   .hideText--wrapper{
-    overflow: hidden;
+    /* overflow: hidden; */
     display: inline-block;
     max-height: 1em;
     height: 1em;
-    margin-right: 0.4ch;
+    /* margin-right: 0.4ch; */
   }
   
   .hideText .hideText--overlay span{

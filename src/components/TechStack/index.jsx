@@ -47,7 +47,7 @@ export default function TechStack() {
             </ScrambleText>{" "}
             <span className="hash">{"//"}</span>{" "}
             <ScrambleText shuffle delay={0.5}>
-              Expertise
+              Our Expertise.
             </ScrambleText>
           </h5>
         </motion.div>

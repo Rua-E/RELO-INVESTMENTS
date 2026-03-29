@@ -102,25 +102,21 @@ export default function Header() {
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a
-            href="https://www.linkedin.com/in/rua-el-kasheef"
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >
-            <ScrambleText shuffle delay={1}>
-              LINKEDIN
+          <a href="#info">
+            <ScrambleText shuffle delay={0.5}>
+              BUSINESS INFOMATION
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="#projects">
-            <ScrambleText shuffle delay={1.5}>
-              PROJECTS
+          <a href="#connect">
+            <ScrambleText shuffle delay={0.5}>
+              CONTACT US 
             </ScrambleText>
           </a>
         </h3>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         animate={controls}
         variants={blurVariants}
@@ -160,13 +156,13 @@ export default function Header() {
             ></img>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="#contact">
+          <a href="#connect">
             <ScrambleText shuffle delay={1.5}>
               CONTACT
             </ScrambleText>
           </a>
         </h3>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
         initial="hidden"
@@ -194,7 +190,7 @@ export default function Header() {
         </h3>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         animate={controls}
         variants={blurVariants}
@@ -202,10 +198,10 @@ export default function Header() {
         className="header--center"
         onAnimationComplete={() => handleComplete()}
       >
-        <a href="#contact" className="connect--button">
+        <a href="connect" className="connect--button">
           <Button label="Let’s connect" icon={ArrowUpRightIcon} />
         </a>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
         initial="hidden"

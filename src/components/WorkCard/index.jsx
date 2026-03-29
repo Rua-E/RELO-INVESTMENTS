@@ -56,7 +56,7 @@ export default function TechCard({ item }) {
       <div className="workCard--body">
         <motion.span initial="hidden" animate={controls} variants={opacityVariants} transition={{ duration: 2, delay: 0.5 }} onAnimationComplete={() => handleComplete()}>
           <a href={item.url} target={"_blank"}>
-            <img src={item.img} alt="" />
+            <img src="" alt="" />
           </a>
         </motion.span>
         <h1>
