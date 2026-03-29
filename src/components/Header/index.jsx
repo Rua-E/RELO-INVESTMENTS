@@ -12,10 +12,11 @@ import Time from "../Time";
 import TextWriting from "../TextWriting";
 
 import MenuIcon from "../../assets/Icon/menu.svg";
-import headerVideo from "../../assets/headerVideo.webm";
+import backdrop from "../../assets/relo-backdrop.mp4";
 import ArrowUpRightIcon from "../../assets/Icon/arrow-up-right.svg";
 import RuaResume from "../../assets/Resume/RESUME_AUG_11.pdf";
 import File from "../../assets/Icon/file.svg";
+import LOGO from "../../assets/LOGO/relo-logo.jpg"
 
 export default function Header() {
   const controls = useAnimation();
@@ -64,6 +65,23 @@ export default function Header() {
 
   return (
     <header ref={ref}>
+            <img 
+  src={LOGO} 
+  alt="Brand Icon"
+  style={{
+    position: 'fixed',
+    top: '20px',     
+    left: '20px', 
+    width: '50px',    
+    borderRadius: '50%', 
+    objectFit: 'cover',
+    height: 'auto',
+    zIndex: 9999,     
+    pointerEvents: 'none' ,
+    backgroundColor: 'rgba(0, 112, 255, 0.4)', // Adjust the 0.4 for more/less blue
+    mixBlendMode: 'screen', // This "lights up" the image with blue
+  }}
+/>
       <NavMenu isVisible={menuVisible} toggleFunc={handleMenuToggle} />
       <BackgroundLines />
       <NavMenu />
@@ -75,15 +93,12 @@ export default function Header() {
         transition={{ duration: 1, delay: 0.5 }}
         className="header--menuBtn"
       >
-        {/* <Button icon={MenuIcon} onClick={handleMenuToggle} /> */}
+   
         <h3>
-          <a
-            href="https://github.com/Rua-E"
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >
+       
+          <a href="#services">
             <ScrambleText shuffle delay={0.5}>
-              GITHUB
+              SERVICES
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
@@ -163,16 +178,13 @@ export default function Header() {
         <div>
           <h5>
             <ScrambleText shuffle delay={4} className="highlight">
-              intro
+              ABOUT US
             </ScrambleText>{" "}
             <span className="header--hash">{"//"}</span>
           </h5>
           <p className="theme--detail">
             <ScrambleText shuffle delay={4}>
-              WELCOME ALL!!! I’m Rua - from ultrasound technologist, to
-              cybsersecurity student, to frontend developer! I’ve finally
-              discovered the work that excites and fulfills me! My mission is to
-              continually learn and grow to be an effective programmer.
+            We believe that wholesale is about more than just transactions—it’s about relationships. Our goal is to support your brand’s long-term vision by acting as a dedicated steward of your products. By honoring your brand values and diligently upholding MAP policies, we ensure a stable and profitable marketplace for the long haul. Partner with RELO Investments for growth that respects your legacy.
             </ScrambleText>
           </p>
         </div>
@@ -215,33 +227,58 @@ export default function Header() {
         initial="hidden"
         animate={controls}
         variants={opacityVariants}
-        transition={{ duration: 2, delay: 2.85 }}
+        transition={{ duration: 2 }}
         className="header--video"
       >
-        <video src={headerVideo} autoPlay loop muted></video>
+        <video src={backdrop} autoPlay loop muted></video>
       </motion.div>
 
       <h1 className="header--name">
-        <TextWriting controls={controls} text={"Rua El-kasheef"} noblink />
+        <div style={{ lineHeight: "0.9", marginTop: "-50px" }}>
+          <span style={{ fontSize: "3.5rem", fontWeight: "bold" }}>
+            <TextWriting controls={controls} text={"RELO"} noblink />
+          </span>
+          <br />
+          <span style={{ fontSize: "3.5rem", fontWeight: "bold" }}>
+            <TextWriting controls={controls} text={"INVESTMENTS"} noblink />
+          </span>
+        </div>
         <br />
-        <TextWriting
-          controls={controls}
-          delay={1.65}
-          text={"Frontend"}
-          noblink
-        />{" "}
+        <div style={{ lineHeight: "0.9", marginTop: "-80px" }}>
+          <TextWriting controls={controls} text={"---"} noblink />
+        </div>
+
+        <div style={{ lineHeight: "0.9", marginTop: "-40px" }}>
+          <span style={{ fontSize: "1.0rem", opacity: 0.8 }}>
+            <TextWriting
+              controls={controls}
+              delay={1.65}
+              text={"COMPOUNDING YOUR"}
+              noblink
+            />
+          </span>
+        </div>
+
         <motion.div
           initial="hidden"
           animate={controls}
           variants={nameVariants}
           className="header--name--sec"
         >
-          <TextWriting
-            controls={controls}
-            delay={2.85}
-            text={"Developer"}
-            noblink
-          />
+          <span
+            style={{
+              fontSize: "2.0rem",
+              fontWeight: "bold",
+              letterSpacing: "2px",
+            }}
+          >
+            <TextWriting
+              controls={controls}
+              delay={2.0}
+              text={"POTENTIAL"}
+              noblink
+            />
+          </span>
           <div className="header--name--border">
             <span></span>
             <span></span>

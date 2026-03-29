@@ -46,10 +46,10 @@
   
   .techStackSec--grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
-    row-gap: 60px;
-    column-gap: 9.09%;
+    row-gap: 20px;
+    column-gap: 1.09%;
   }
   
   @media (max-width: 1500px) {

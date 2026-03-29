@@ -9,53 +9,42 @@ import sassIcon from "../assets/Icon/Tech/sass.svg";
 
 const techs = [
     {
-      title: "HTML 5",
-      icon: htmlIcon,
-      detail:
-        "Hypertext Markup Language, used for structuring and presenting content on the World Wide Web.",
-    },
-    {
-      title: "CSS 3",
-      icon: cssIcon,
-      detail:
-        "Cascading Style Sheets, used for describing the look and formatting of a document written in HTML.",
-    },
-    {
-      title: "JavaScript",
-      icon: jsIcon,
-      detail:
-        "Programming language that enables interactive web pages and is an essential part of web applications.",
-    },
-    {
-      title: "TypeScript",
-      icon: tsIcon,
-      detail:
-        "TypeScript, a superset of JavaScript that adds static typing abilities to the language.",
-    },
-    {
-      title: "React",
-      icon: reactIcon,
-      detail:
-        "JavaScript library for building user interfaces, particularly single-page applications.",
-    },
-    {
-      title: "Redux",
-      icon: reduxIcon,
-      detail:
-        "Predictable state container for JavaScript apps, often used with React.",
-    },
-    {
-      title: "Firebase",
+      title: "Adherence to MAP Pricing:",
       icon: firebaseIcon,
       detail:
-        "Platform developed by Google for creating mobile and web applications.",
+        "We’ll ensure your Minimum Advertised Pricing is strictly followed, protecting your brand’s value and preventing price erosion.",
     },
     {
-      title: "Sass",
-      icon: sassIcon,
+      title: "Grade A Logistics:",
+      icon: firebaseIcon,
       detail:
-        "Preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS)",
+        " After shipping over 800,000 units last year, we can confidently say that we truly implement rigorous quality control checks at every stage of the warehouse process, from receiving inventory to packaging and shipping. This ensures that every product arrives at Amazon's fulfillment centers in perfect condition, minimizing returns and maximizing customer satisfaction.",
     },
+    {
+      title: "Seller Cleanup:",
+      icon: firebaseIcon,
+      detail:
+        " We’ll help remove unauthorized sellers from your listings, ensuring your brand is represented the way it deserves to be.",
+    },
+    {
+      title: "Listing Optimization:",
+      icon: firebaseIcon,
+      detail:
+        "From improving product photos to crafting compelling descriptions and A+ branded content, we’ll make your listings stand out and convert better.",
+    },
+    {
+      title: "Bundle Listing Creation:",
+      icon: reactIcon,
+      detail:
+        "One of the best ways to increase sales and the customer buying experience is to bundle products from your brand that people are already buying together. We assist with creating, optimizing and stocking these listings.",
+    },
+    {
+      title: "Advertising Support",
+      icon: reduxIcon,
+      detail:
+        "We reinvest a portion of our profits into running targeted ads for your products, increasing visibility and driving more sales.",
+    },
+   
   ];
 
 export default techs;

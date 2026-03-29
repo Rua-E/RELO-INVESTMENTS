@@ -46,7 +46,7 @@ export default function About() {
       <div ref={ref} className="about--grid">
         <div className="about--bio">
           <h2>
-            <ParaWriting stagger={0.08} text={"Passionate and driven software engineer with a "} sec={"deep enthusiasm for web development."} />
+            <ParaWriting stagger={0.08} text={"Grow with us. "} sec={"Today’s expansion. Tomorrow’s legacy."} />
           </h2>
         </div>
 
@@ -57,25 +57,25 @@ export default function About() {
             </ScrambleText>{" "}
             <span className="hash">{"//"}</span>{" "}
             <ScrambleText shuffle delay={1.5}>
-              about
+              How we do it.
             </ScrambleText>
           </h5>
         </motion.div>
 
         <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 2 }} onAnimationComplete={() => handleComplete()} className="about--detail">
           <p className="theme--detail--dark">
-            <ScrambleText delay={2}>I relish in the challenge of creating beautiful, responsive, user-friendly interfaces. My goal is to always use clean-code as I continue to navigate and aspire to master the ever growing complex frameworks in the world of web development. After a very successful 10-year career as a Diagnostic Medical Sonographer, and in the course of doing my Associated Degree in Cybersecurity I stumbled upon the fascinating field of software development. Finally, something that captivates me and COMMANDS my attention. Everything about software development fits so perfectly with my many of my skills and ignites a passion in my I have been looking for my whole professional life! Cheers to discovering our callings! </ScrambleText>
+            <ScrambleText delay={2}>Our primary retail operations are anchored within the Amazon ecosystem, allowing us to leverage a world-class logistics network and a customer-centric infrastructure that remains the gold standard in global e-commerce. By utilizing Amazon as our primary vehicle, we ensure that our partner brands benefit from unparalleled distribution speed and a seamless end-to-end consumer experience.</ScrambleText>
           </p>
         </motion.div>
 
         <motion.div initial="hidden" animate={controls} variants={positionVariant} className="about--marquee">
           <h1 draggable="false">
             <InteractiveMarquee wheelFactor={0} speed={1.3}>
-              <span>ABOUT Rua El-kasheef</span>
-              <span>ABOUT Rua El-kasheef</span>
-              <span>ABOUT Rua El-kasheef</span>
-              <span>ABOUT Rua El-kasheef</span>
-              <span>ABOUT Rua El-kasheef</span>
+              <span>ABOUT RELO INVESTMENTS LLC </span>
+              <span>ABOUT RELO INVESTMENTS LLC </span>
+              <span>ABOUT RELO INVESTMENTS LLC </span>
+              <span>ABOUT RELO INVESTMENTS LLC </span>
+              <span>ABOUT RELO INVESTMENTS LLC </span>
             </InteractiveMarquee>
           </h1>
         </motion.div>

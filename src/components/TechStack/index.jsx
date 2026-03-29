@@ -30,13 +30,13 @@ export default function TechStack() {
   }
 
   return (
-    <section ref={ref} className="techStackSec" id="tech">
+    <section ref={ref} className="techStackSec" id="services">
       <BackgroundLines />
 
       <div className="techStackSec--head">
         <div className="techStackSec--head--heading">
           <h2>
-            <ParaWriting stagger={0.08} text={"Tech-"} sec={"Stack"} />
+            <ParaWriting stagger={0.08} text={"Our"} sec={"Services"} />
           </h2>
         </div>
 
@@ -54,7 +54,7 @@ export default function TechStack() {
 
         <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 1 }} onAnimationComplete={() => handleComplete()} className="techStackSec--head--detail">
           <p className="theme--detail">
-            <ScrambleText delay={1}>Explore the technologies that define my craft: HTML5, CSS3, JavaScript, TypeScript, React, Redux, Firebase, and Sass. Each tool is carefully selected to create seamless, modern web experiences.</ScrambleText>
+            <ScrambleText delay={1}>Protecting your legacy while scaling your reach.</ScrambleText>
           </p>
         </motion.div>
       </div>
