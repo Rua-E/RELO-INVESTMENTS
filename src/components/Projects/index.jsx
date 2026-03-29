@@ -32,7 +32,7 @@ export default function Projects() {
       client: "Business Address",
       year: "2026",
       // img: SKINSTRIC,
-      title: '20 S Charles St Ste 403 #2725 Baltimore, MD 21201',
+      title: "20 S Charles St Ste 403 #2725 Baltimore, MD 21201",
       detail: "",
       url: "https://www.google.com/maps/place/20+S+Charles+St+403+2725,+Baltimore,+MD+21201/@39.2884564,-76.6181132,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8049fd3dea891:0xe35076b151dd6983!8m2!3d39.2884564!4d-76.6155436?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D",
     },

@@ -60,20 +60,18 @@
     font-weight: 400;
     line-height: 100%; /* 48px */
     letter-spacing: -1.92px;
+    word-spacing: 0.2em;
     text-transform: uppercase;
     mix-blend-mode: difference;
     /* max-width: 100ch; */
-    overflow-wrap: break-word !important;
-    word-wrap: break-word !important;
-    white-space: normal !important;
+   
   }
   
   @media (max-width: 1500px) {
     .workCard--body h1 {
       font-size: 30px;
-      overflow-wrap: break-word !important;
-    word-wrap: break-word !important;
-    white-space: normal !important;
+   
+     
     }
     .workCard--body p {
       font-size: 15px;
