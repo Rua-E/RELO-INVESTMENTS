@@ -82,7 +82,7 @@
     border-color: var(--dark);
   }
   
-  @media (max-width: 1500px) {
+  @media (max-width: 1800px) {
     .btn {
       height: 40px;
       padding: 0px 10px;

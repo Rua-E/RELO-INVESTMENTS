@@ -22,7 +22,7 @@
     opacity: 0.6;
   }
   
-  @media (max-width: 1500px) {
+  @media (max-width: 1800px) {
     .techCard h3 {
       margin-top: 1rem;
       font-size: 16px;

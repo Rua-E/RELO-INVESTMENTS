@@ -20,7 +20,7 @@
   box-shadow: 0 0 10px 0px #ffffff50;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
     .MouseFollower{
         width: 45px;
         height: 45px;

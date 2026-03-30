@@ -193,7 +193,7 @@ header .header--bottom p {
   transform: translate(50%, 50%);
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
   .header--name {
     margin-top: 10vh;
     font-size: 60px;
