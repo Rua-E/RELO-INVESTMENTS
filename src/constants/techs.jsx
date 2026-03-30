@@ -15,10 +15,10 @@ const techs = [
         "We’ll ensure your Minimum Advertised Pricing is strictly followed, protecting your brand’s value and preventing price erosion.",
     },
     {
-      title: "Grade A Logistics:",
+      title: "Grade A Logistics & Supply Chain Integrity:",
       icon: firebaseIcon,
       detail:
-        " After shipping over 800,000 units last year, we can confidently say that we truly implement rigorous quality control checks at every stage of the warehouse process, from receiving inventory to packaging and shipping. This ensures that every product arrives at Amazon's fulfillment centers in perfect condition, minimizing returns and maximizing customer satisfaction.",
+        " Our team enforces comprehensive quality control standards across all third-party warehousing and shipping operations. We actively monitor partner compliance and mandate detailed documentation of any damaged goods during transit. This proactive management ensures all products delivered to Amazon meet the highest quality benchmarks, maximizing customer satisfaction and protecting brand reputation.",
     },
     {
       title: "Seller Cleanup:",
