@@ -16,7 +16,7 @@ const TextWriting = ({ text, delay, controls, nocursor = false, noblink = false 
         damping: 10,
         stiffness: 100,
         delayChildren: delay,
-        staggerChildren: 0.15,
+        staggerChildren: 0.05,
       },
     },
   }

@@ -54,7 +54,7 @@ export default function TechStack() {
 
         <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 1 }} onAnimationComplete={() => handleComplete()} className="techStackSec--head--detail">
           <p className="theme--detail">
-            <ScrambleText delay={1}>Protecting your legacy while scaling your reach.</ScrambleText>
+            <ScrambleText delay={1}>Protecting a legacy while scaling your reach.</ScrambleText>
           </p>
         </motion.div>
       </div>

@@ -16,7 +16,7 @@ import backdrop from "../../assets/relo-backdrop.mp4";
 import ArrowUpRightIcon from "../../assets/Icon/arrow-up-right.svg";
 import RuaResume from "../../assets/Resume/RESUME_AUG_11.pdf";
 import File from "../../assets/Icon/file.svg";
-import LOGO from "../../assets/LOGO/relo-logo.jpg"
+import LOGO from "../../assets/LOGO/relo-logo.jpg";
 
 export default function Header() {
   const controls = useAnimation();
@@ -43,7 +43,7 @@ export default function Header() {
         type: "spring",
         stiffness: 20,
         duration: 1.5,
-        delay: 2.85,
+        delay: 2.1,
       },
     },
   };
@@ -65,23 +65,23 @@ export default function Header() {
 
   return (
     <header ref={ref}>
-            <img 
-  src={LOGO} 
-  alt="Brand Icon"
-  style={{
-    position: 'fixed',
-    top: '20px',     
-    left: '20px', 
-    width: '50px',    
-    borderRadius: '50%', 
-    objectFit: 'cover',
-    height: 'auto',
-    zIndex: 9999,     
-    pointerEvents: 'none' ,
-    backgroundColor: 'rgba(0, 112, 255, 0.4)', // Adjust the 0.4 for more/less blue
-    mixBlendMode: 'screen', // This "lights up" the image with blue
-  }}
-/>
+      <img
+        src={LOGO}
+        alt="Brand Icon"
+        style={{
+          position: "fixed",
+          top: "20px",
+          left: "20px",
+          width: "50px",
+          borderRadius: "50%",
+          objectFit: "cover",
+          height: "auto",
+          zIndex: 9999,
+          pointerEvents: "none",
+          backgroundColor: "rgba(0, 112, 255, 0.4)", // Adjust the 0.4 for more/less blue
+          mixBlendMode: "screen", // This "lights up" the image with blue
+        }}
+      />
       <NavMenu isVisible={menuVisible} toggleFunc={handleMenuToggle} />
       <BackgroundLines />
       <NavMenu />
@@ -93,9 +93,7 @@ export default function Header() {
         transition={{ duration: 1, delay: 0.5 }}
         className="header--menuBtn"
       >
-   
         <h3>
-       
           <a href="#services">
             <ScrambleText shuffle delay={0.5}>
               SERVICES
@@ -104,13 +102,13 @@ export default function Header() {
           <span className="header--hash">{"//"}</span>
           <a href="#info">
             <ScrambleText shuffle delay={0.5}>
-              BUSINESS INFOMATION
+              BUSINESS INFORMATION
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
           <a href="#connect">
             <ScrambleText shuffle delay={0.5}>
-              CONTACT US 
+              CONTACT US
             </ScrambleText>
           </a>
         </h3>
@@ -180,7 +178,13 @@ export default function Header() {
           </h5>
           <p className="theme--detail">
             <ScrambleText shuffle delay={4}>
-            We believe that wholesale is about more than just transactions—it’s about relationships. Our goal is to support your brand’s long-term vision by acting as a dedicated steward of your products. By honoring your brand values and diligently upholding MAP policies, we ensure a stable and profitable marketplace for the long haul. Partner with RELO Investments for growth that respects your legacy.
+              We believe that wholesale is about more than just
+              transactions—it’s about relationships. Our goal is to support your
+              brand’s long-term vision by acting as a dedicated steward of your
+              products. By honoring your brand values and diligently upholding
+              MAP policies, we ensure a stable and profitable marketplace for
+              the long haul. Partner with RELO Investments for growth that
+              respects your legacy.
             </ScrambleText>
           </p>
         </div>
@@ -248,7 +252,7 @@ export default function Header() {
           <span style={{ fontSize: "1.0rem", opacity: 0.8 }}>
             <TextWriting
               controls={controls}
-              delay={1.65}
+              delay={1.3}
               text={"COMPOUNDING YOUR"}
               noblink
             />
@@ -270,7 +274,7 @@ export default function Header() {
           >
             <TextWriting
               controls={controls}
-              delay={2.0}
+              delay={0}
               text={"POTENTIAL"}
               noblink
             />
